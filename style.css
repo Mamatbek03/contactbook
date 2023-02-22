@@ -1,0 +1,63 @@
+body {
+  background-image: url(./img/pngwing.com.png);
+}
+.contactbook {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.person {
+  width: 430px;
+  height: 200px;
+  margin: 20px 30px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 2px;
+  background: linear-gradient(60deg, orange, rgb(115, 65, 3));
+}
+.person-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+p:first-child {
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+p {
+  margin: 5px 0;
+}
+.btns {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+.btnEdit {
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  border: green;
+  margin: 0 10px;
+  padding: 5px 15px;
+}
+.btnDelete {
+  border-radius: 5px;
+  color: white;
+  background-color: darkred;
+  border: darkred;
+  padding: 5px 15px;
+}
+.modal-body input {
+  margin: 15px 0;
+}
